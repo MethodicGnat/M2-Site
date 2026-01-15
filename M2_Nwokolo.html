@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        
+        <p>Analeigh</p>
+        <p>anwokolo1@my.waketech.edu</p>
+        <p>Computer Programming</p>
+        <p id="results"></p>
+        <script>
+            alert("Coding with Javascript");
+            const results = document.getElementById("results");
+            results.innerHTML = "JavaScript is Cool";
+            const text = document.querySelectorAll("p");
+            for (var i = 0; i < text.length; i++) {
+                text[i].style.color = "red";
+            }
+        </script>
+    </body>
+</html>
